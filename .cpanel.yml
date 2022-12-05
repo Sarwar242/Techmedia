@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/sarwar/techmedia
+    - /bin/cp -R images $DEPLOYPATH
